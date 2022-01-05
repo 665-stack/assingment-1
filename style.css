@@ -4,9 +4,10 @@ body{
 }
 h1{
     font-size: 60px; 
+    text-align: center;
 }
 span{
-    color: orange;
+    color: rgb(117, 86, 72);
 }
 p{
     margin-bottom: 25px;
@@ -14,18 +15,18 @@ p{
 }
 .btn{
     padding: 10px 15px;
-    background-color: orange;
+    background-image: linear-gradient(rgb(83, 43, 30),rgb(160, 107, 107));
     text-decoration: none;
     color: white;
     border-radius: 5px;
     font-size: small;
     
-    transition: 2ms;
+    transition: 0.4s;
 }
 .btn:hover{
-    background-color: red;
+    background-image: linear-gradient(rgb(160, 107, 107),rgb(83, 43, 30));
 }
-section{
+.section-1{
     display: flex;
     padding-bottom: 150px;
 }
@@ -47,7 +48,39 @@ section{
 }
 
 /* section 1 is done */
-
+.goal{
+    display: flex;
+    justify-content: center;
+}
+.goal-itm{
+    width: 20%;
+    height: 300px;
+    margin:10px 20px 10px 20px;
+    padding: 16px;
+    padding-bottom: 40px;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.4s;
+}
+.goal-itm:hover{
+    transform: scale(1.07);
+}
+.goal-itm h3{
+    font-size: 20px;
+}
+.goal-itm img {
+    width: 50%;
+    align-items: center;
+}
+.goal .itm-1{
+    background-color: rgba(207, 158, 153, 0.548);
+}
+.goal .itm-2{
+    background-color:rgba(176, 147, 204, 0.363);
+}
+.goal .itm-3{
+    background-color: rgba(213, 159, 226, 0.445);
+}
 
 
 

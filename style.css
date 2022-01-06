@@ -6,6 +6,10 @@ h1{
     font-size: 60px; 
     text-align: center;
 }
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
 span{
     color: rgb(117, 86, 72);
 }
@@ -28,7 +32,7 @@ p{
 }
 .section-1{
     display: flex;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 .half-width{
     width: 40%;
@@ -84,7 +88,23 @@ p{
 /*section 2 is done*/
 
 .section-3{
-  
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    justify-content: center;
+
+}
+.half-width3{
+    width: 30%;
+}
+.half-width4{
+    width: 40%;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.half-width3 img{
+    width: 100%;
 }
 
 

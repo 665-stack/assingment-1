@@ -22,6 +22,7 @@ p{
     background-image: linear-gradient(rgb(83, 43, 30),rgb(160, 107, 107));
     text-decoration: none;
     color: white;
+    border: none;
     border-radius: 5px;
     font-size: small;
     
@@ -29,6 +30,20 @@ p{
 }
 .btn:hover{
     background-image: linear-gradient(rgb(160, 107, 107),rgb(83, 43, 30));
+}
+input{
+    margin: 10px 5px;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(204, 190, 190, 0.466);
+    transition: 2s;
+}
+textarea{
+    border: none;
+    resize: none;
+    background-color: rgba(204, 190, 190, 0.466);
+    padding: 7px 13px;
 }
 .section-1{
     display: flex;
@@ -114,6 +129,23 @@ p{
     justify-content: center;
 }
 /*section 5 is done*/
+.section-5{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.half-width-5{
+    width: 40%;
+    margin-left: 10% ;
+    border: 1px solid violet;
+}
+.half-width-6{
+padding: 100000000px;
+    width: 40%;
+    margin-left: 10%;
+    border: 1px solid black;
+
+}
 
 
 

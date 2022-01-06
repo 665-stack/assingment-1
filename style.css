@@ -10,6 +10,11 @@ h2{
     font-size: 40px;
     font-weight: 700;
 }
+h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 span{
     color: rgb(117, 86, 72);
 }
@@ -25,7 +30,7 @@ p{
     border: none;
     border-radius: 5px;
     font-size: small;
-    
+    margin-left: 10px;
     transition: 0.4s;
 }
 .btn:hover{
@@ -122,13 +127,13 @@ textarea{
 .half-width3 img{
     width: 100%;
 }
-/*section 4 is done*/
+/*section 3 is done*/
 .section-4{
     display: flex;
     padding-bottom: 120px;
     justify-content: center;
 }
-/*section 5 is done*/
+/*section 4 is done*/
 .section-5{
     display: flex;
     justify-content: center;
@@ -136,17 +141,18 @@ textarea{
 }
 .half-width-5{
     width: 40%;
-    margin-left: 10% ;
-    border: 1px solid violet;
-}
-.half-width-6{
-padding: 100000000px;
-    width: 40%;
     margin-left: 10%;
     border: 1px solid black;
 
 }
+.half-width-6{
+    padding-top: 90px;
+    margin-left: 10%;
+    width: 40%;
+    border: 1px solid black;
 
+}
+/*section 5 is done*/
 
 
 

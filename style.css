@@ -2,13 +2,16 @@ body{
     margin: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-h1{
+ h1{
     font-size: 60px; 
     text-align: center;
-}
+ }
 h2{
     font-size: 40px;
     font-weight: 700;
+}
+h3{
+    font-size: 30px;
 }
 h5{
     font-size: 15px;
@@ -18,9 +21,10 @@ h5{
 span{
     color: rgb(117, 86, 72);
 }
-p{
+ p{
     margin-bottom: 25px;
     margin-top: 20px;
+    
 }
 .btn{
     padding: 10px 15px;
@@ -142,17 +146,35 @@ textarea{
 .half-width-5{
     width: 40%;
     margin-left: 10%;
-    border: 1px solid black;
+    
 
 }
 .half-width-6{
     padding-top: 90px;
     margin-left: 10%;
     width: 40%;
-    border: 1px solid black;
 
 }
 /*section 5 is done*/
+.footer{
+    color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(39, 8, 8);
+}
+.footer h3{
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

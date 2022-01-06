@@ -1,35 +1,41 @@
 body{
     margin: 0;
-    font-family: 'Be Vietnam Pro', sans-serif;
     background-color: rgba(194, 102, 85, 0.37);
 }
  h1{
     font-size: 60px; 
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
  }
 h2{
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 h3{
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 h5{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 span{
     color: rgb(117, 86, 72);
+
 }
  p{
     margin-bottom: 25px;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
     
 }
 .btn{
+    font-family: 'Montserrat', sans-serif;
     padding: 10px 15px;
-    background-image: linear-gradient(rgb(83, 43, 30),rgb(160, 107, 107));
+    background-image: linear-gradient(rgb(83, 43, 30),rgb(151, 67, 67));
     text-decoration: none;
     color: white;
     border: none;
@@ -39,25 +45,31 @@ span{
     transition: 0.4s;
 }
 .btn:hover{
-    background-image: linear-gradient(rgb(160, 107, 107),rgb(83, 43, 30));
+    background-image: linear-gradient(rgb(151, 67, 67),rgb(83, 43, 30));
 }
 input{
     margin: 10px 5px;
     padding: 7px 13px;
     border: none;
     border-radius: 5px;
-    background-color: rgba(204, 190, 190, 0.466);
+    background-color: rgba(248, 244, 244, 0.712);
     transition: 2s;
 }
 textarea{
     border: none;
     resize: none;
-    background-color: rgba(204, 190, 190, 0.466);
+    background-color: rgba(248, 244, 244, 0.712);
     padding: 7px 13px;
+}
+small{
+    font-family: 'Lobster', cursive;
 }
 .section-1{
     display: flex;
     padding-bottom: 100px;
+}
+.section-1 h1{
+    font-family: 'Yeseva One', cursive;
 }
 .half-width{
     width: 40%;
@@ -120,16 +132,16 @@ textarea{
     justify-content: center;
 
 }
-.half-width3{
+.half-width-3{
     width: 30%;
 }
-.half-width4{
+.half-width-4{
     width: 40%;
     margin-left: 30px;
     margin-right: 30px;
     padding: 20px;
 }
-.half-width3 img{
+.half-width-3 img{
     width: 100%;
 }
 /*section 3 is done*/
@@ -164,7 +176,7 @@ textarea{
     background-color: rgb(39, 8, 8);
 }
 .footer h3{
-    
+    font-family: 'Lobster', cursive;
 }
 
 
